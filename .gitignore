@@ -1,0 +1,26 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Private configuration and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Uploaded PDFs and local databases
+*.pdf
+chroma_db/
+chroma.sqlite3
+
+# Local backup
+app_backup.py
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
